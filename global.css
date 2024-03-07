@@ -1,0 +1,96 @@
+.container {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --heading-6: Roboto;
+  --font-open-sans: "Open Sans";
+  --font-poppins: Poppins;
+
+  /* font sizes */
+  --heading-6-size: 24px;
+  --body-xs-size: 12px;
+  --button-m-size: 16px;
+  --heading-5-size: 32px;
+  --body-xl-size: 20px;
+  --heading-1-m-size: 72px;
+  --font-size-11xl: 30px;
+  --font-size-29xl: 48px;
+  --body-l-size: 18px;
+  --body-s-size: 14px;
+  --heading-2-size: 56px;
+
+  /* Colors */
+  --white: #fff;
+  --purple-600: #9333ea;
+  --purple-700: #7e22ce;
+  --black: #000;
+  --red-100: #fee2e2;
+  --red-800: #991b1b;
+  --color-gray-100: #1e1e1e;
+  --color-gray-200: #191919;
+  --blue-gray-900: #0f172a;
+  --blue-gray-600: #475569;
+  --purple-100: #f3e8ff;
+  --purple-800: #6b21a8;
+  --purple-900: #581c87;
+  --blue-gray-100: #f1f5f9;
+  --blue-light-100: #e0f2fe;
+  --blue-gray-200: #e2e8f0;
+  --amber-500: #f59e0b;
+  --blue-light-200: #bae6fd;
+  --color-dimgray: #595959;
+  --orange-400: #fb923c;
+  --amber-600: #d97706;
+  --green-100: #dcfce7;
+  --green-800: #166534;
+  --default-alert: #da1e28;
+  --blue-600: #2563eb;
+  --amber-400: #fbbf24;
+  --amber-100: #fef3c7;
+  --blue-gray-300: #cbd5e1;
+  --blue-gray-400: #94a3b8;
+  --purple-500: #a855f7;
+  --blue-light-700: #0369a1;
+
+  /* Gaps */
+  --gap-0: 0px;
+  --gap-5xs: 8px;
+  --gap-base: 16px;
+  --gap-5xl: 24px;
+
+  /* Paddings */
+  --padding-base: 16px;
+  --padding-11xl: 30px;
+  --padding-5xl: 24px;
+  --padding-61xl: 80px;
+  --padding-xs: 12px;
+  --padding-5xs: 8px;
+  --padding-9xs: 4px;
+  --padding-29xl: 48px;
+  --padding-xl: 20px;
+  --padding-12xs-5: 0.5px;
+  --padding-7xs-5: 5.5px;
+
+  /* Border radiuses */
+  --br-8xs: 5px;
+  --br-9xs: 4px;
+  --br-21xl: 40px;
+  --br-5xs: 8px;
+  --br-xl: 20px;
+  --br-xs: 12px;
+  --br-mini: 15px;
+  --br-sm: 14px;
+
+  /* Effects */
+  --shadow-dark-xl: 0px 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0px 0px 10px rgba(0, 0, 0, 0.07);
+}
