@@ -103,14 +103,14 @@
 .section-text {
   width: 628px;
   gap: 60px 0;
-  padding-top: 40px;
+  padding-top: 80px;
 }
 .col {
   flex: 1;
 }
 .right-child {
   width: 673px;
-  top: -80px;
+  top: -101px;
   right: -80px;
   height: 694px;
   z-index: 0;
@@ -123,7 +123,7 @@
 }
 .mask-masked-icon {
   width: 673px;
-  top: -81px;
+  top: -102px;
   right: -89px;
   height: 694px;
   object-fit: cover;
@@ -1249,6 +1249,8 @@
   color: var(--color-dimgray);
 }
 .gianmarco-califano-bd-container {
+  transform: scale(0.8); /* Shrinks the team section to 80% of its original size */
+  transform-origin: center;
   position: absolute;
   top: 280px;
   left: calc(50% - 187px);
@@ -1272,6 +1274,8 @@
   font-weight: 500;
 }
 .igor-berlenko-pd-container {
+  transform: scale(0.8); /* Shrinks the team section to 80% of its original size */
+  transform-origin: center;
   position: absolute;
   top: 324.9px;
   left: calc(50% - 193.3px);
@@ -1296,6 +1300,8 @@
   background-image: url(./public/column2@3x.png);
 }
 .teambackground {
+  transform: scale(0.8); /* Shrinks the team section to 80% of its original size */
+  transform-origin: center;
   width: 1440px;
   position: relative;
   height: 718px;
@@ -1808,7 +1814,7 @@
 .final-website-galaxy {
   width: 100%;
   position: relative;
-  height: 7342px;
+  height: 6200px;
   overflow: hidden;
   flex-direction: column;
   align-items: flex-start;
@@ -1817,4 +1823,14 @@
   font-size: var(--body-xl-size);
   color: var(--blue-gray-900);
   font-family: var(--heading-6);
+}
+
+.socials1 {
+  display: flex;
+  justify-content: center; /* Center the social logos */
+  margin-top: -65px; /* Adjust the spacing above the social logos */
+  margin-left: -5px;
+}
+.socials1 a {
+  margin: 0 18px; /* Space between each logo */
 }
