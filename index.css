@@ -1,1820 +1,871 @@
-.craft-your-canvas {
-  margin-block-start: 0;
-  margin-block-end: 5px;
-}
-.share {
-  margin: 0;
-}
-.main-headline {
-  position: relative;
-  line-height: 110%;
-  font-weight: 800;
-}
-.main-headline,
-.paragraph,
-.top {
-  align-self: stretch;
-}
-.top {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.paragraph {
-  position: relative;
-  font-size: var(--body-xl-size);
-  line-height: 180%;
-}
-.get-it-free {
-  position: relative;
-  letter-spacing: 0.5px;
-  line-height: 24px;
-}
-.button,
-.text-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 0 var(--padding-5xl);
-}
-.button {
-  border-radius: var(--br-5xs);
-  background-color: #9920e9;
-  border: 2px solid #9920e9;
-  padding: var(--padding-xl) var(--padding-5xl);
-  cursor: pointer;
-}
-.icon-jam-icons-outline-l {
-  width: 24px;
-  position: relative;
-  height: 24px;
-  overflow: hidden;
-  flex-shrink: 0;
-  color: #0F172A;
-}
-.button-text {
-  position: relative;
-  letter-spacing: 0.5px;
-  line-height: 24px;
-  font-weight: 500;
-  text-decoration: none; /* Remove underline */
-  color: inherit; /* Inherit color from parent */
-}
-.button-text:hover,
-.button-text:focus {
-  text-decoration: underline; /* Optional: add underline on hover/focus */
-}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-.button1,
-.text-container1 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 0 var(--padding-base);
-}
-.button1 {
-  border-radius: var(--br-5xs);
-  padding: var(--padding-base) var(--padding-5xs);
-  cursor: pointer;
-  font-size: var(--body-xl-size);
-  color: #0F172A;
-}
-.buttons-group,
-.col,
-.section-text {
-  display: flex;
-  justify-content: flex-start;
-}
-.buttons-group {
-  flex-direction: row;
-  align-items: center;
-  gap: 0 32px;
-  font-size: var(--heading-6-size);
-  color: var(--white);
-}
-.col,
-.section-text {
-  flex-direction: column;
-  align-items: flex-start;
-}
-.section-text {
-  width: 628px;
-  gap: 60px 0;
-  padding-top: 40px;
-}
-.col {
-  flex: 1;
-}
-.right-child {
-  width: 673px;
-  top: -80px;
-  right: -80px;
-  height: 694px;
-  z-index: 0;
-}
-.mask-masked-icon,
-.right-child,
-.right-item {
-  position: absolute;
-  margin: 0 !important;
-}
-.mask-masked-icon {
-  width: 673px;
-  top: -81px;
-  right: -89px;
-  height: 694px;
-  object-fit: cover;
-  z-index: 1;
-}
-.right-item {
-  width: 149px;
-  top: 38px;
-  left: calc(50% - 359px);
-  border-radius: 50%;
-  background-color: #9920e9;
-  height: 149px;
-  z-index: 2;
-}
-.right-inner {
-  width: 70px;
-  top: 567px;
-  left: 420px;
-  background-color: var(--blue-light-200);
-  height: 70px;
-  z-index: 3;
-}
-.ellipse-div,
-.right-child1,
-.right-inner {
-  position: absolute;
-  margin: 0 !important;
-  border-radius: 50%;
-}
-.ellipse-div {
-  width: 23px;
-  top: 27px;
-  left: 490px;
-  background-color: var(--blue-light-200);
-  height: 23px;
-  z-index: 4;
-}
-.right-child1 {
-  width: 74px;
-  top: 126px;
-  right: -37px;
-  background-color: var(--amber-500);
-  height: 74px;
-  z-index: 5;
-}
-.right,
-.section-hero {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.right {
-  flex: 1;
-  height: 655px;
-  flex-direction: column;
-  position: relative;
-  gap: 24px 0;
-}
-.section-hero {
-  width: 1440px;
-  flex-direction: row;
-  padding: var(--padding-61xl) var(--padding-61xl) 0;
-  box-sizing: border-box;
-  gap: 0 80px;
-  z-index: 0;
-  font-size: var(--heading-1-m-size);
-}
-.circles-icon {
-  width: 1996px;
-  position: absolute;
-  margin: 0 !important;
-  top: 190px;
-  left: -355px;
-  height: 807px;
-  z-index: 0;
-}
-.caption,
-.secondary-headline {
-  align-self: stretch;
-  position: relative;
-  line-height: 110%;
-  font-weight: 500;
-}
-.secondary-headline {
-  font-size: var(--heading-2-size);
-  font-weight: 800;
-  color: var(--blue-gray-900);
-}
-.top1 {
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 8px 0;
-}
-.paragraph1 {
-  align-self: stretch;
-  position: relative;
-  line-height: 180%;
-  color: var(--blue-gray-900);
-}
-.section-text1 {
-  width: 900px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 24px 0;
-  z-index: 1;
-}
-.icon-jam-icons-filled-ci {
-  width: 10px;
-  position: relative;
-  height: 10px;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-.arrows,
-.circles {
-  flex: 1;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 0 5px;
-  z-index: 0;
-}
-.arrows {
-  align-items: center;
-  justify-content: flex-end;
-  z-index: 1;
-}
-.wwwgalaxydo {
-  position: relative;
-  line-height: 140%;
-}
-.address-bar,
-.top-bar {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  box-sizing: border-box;
-}
-.address-bar {
-  width: 44.99%;
-  margin: 0 !important;
-  position: absolute;
-  top: 8px;
-  right: 27.42%;
-  left: 27.59%;
-  border-radius: var(--br-8xs);
-  background-color: var(--blue-gray-100);
-  justify-content: center;
-  padding: var(--padding-9xs) var(--padding-5xs);
-  z-index: 2;
-}
-.top-bar {
-  align-self: stretch;
-  height: 41px;
-  justify-content: flex-start;
-  padding: var(--padding-5xs) var(--padding-base);
-  position: relative;
-  gap: 0 28px;
-}
-.screendesktop-child {
-  width: 1093px;
-  position: relative;
-  height: 653px;
-  object-fit: cover;
-}
-.screendesktop {
-  width: 1100px;
-  border-radius: var(--br-xl);
-  background-color: var(--white);
-  box-shadow: var(--shadow-dark-xl);
-  border: 5px solid var(--white);
-  box-sizing: border-box;
-  height: 694px;
-  overflow: hidden;
-  flex-shrink: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  z-index: 2;
-  text-align: left;
-  font-size: var(--body-xs-size);
-  color: var(--blue-gray-400);
-}
-.circles-icon1,
-.lines-icon {
-  position: absolute;
-  margin: 0 !important;
-}
-.circles-icon1 {
-  width: 1193px;
-  top: 729px;
-  left: 125px;
-  height: 215px;
-  z-index: 3;
-}
-.lines-icon {
-  width: 1093px;
-  bottom: 156px;
-  left: calc(50% - 550px);
-  height: 78px;
-  z-index: 4;
-}
-.pngegg-1-1 {
-  width: 60px;
-  position: relative;
-  height: 59px;
-  object-fit: cover;
-}
-.app-thumbnail {
-  width: 66px;
-  border-radius: var(--br-sm);
-  background-color: var(--white);
-  border: 1px solid var(--blue-gray-300);
-  box-sizing: border-box;
-  height: 66px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.app-icon-child {
-  width: 47px;
-  position: relative;
-  height: 41.6px;
-}
-.app-icon,
-.app-thumbnail1 {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.app-thumbnail1 {
-  width: 70px;
-  border-radius: var(--br-sm);
-  background-color: var(--white);
-  border: 3px solid var(--orange-400);
-  box-sizing: border-box;
-  height: 70px;
-  align-items: center;
-  justify-content: center;
-}
-.image-27-icon {
-  width: 76px;
-  position: relative;
-  height: 58px;
-  object-fit: cover;
-}
-.app-icon-item {
-  width: 41.1px;
-  position: relative;
-  height: 41.1px;
-}
-.app-icon1 {
-  display: none;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-.app-icon-inner {
-  width: 46.8px;
-  position: relative;
-  height: 38.8px;
-}
-.app-icon2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.app-logo-05-icon {
-  width: 51.7px;
-  position: relative;
-  height: 23.6px;
-}
-.app-icon-child1,
-.group-icon {
-  width: 41.8px;
-  position: relative;
-  height: 40.5px;
-}
-.app-icon-child1 {
-  width: 53.3px;
-  height: 53.3px;
-}
-.pngegg-2-1,
-.pngegg-3-1 {
-  width: 51px;
-  position: relative;
-  height: 41px;
-  object-fit: cover;
-}
-.pngegg-3-1 {
-  width: 71px;
-  height: 48px;
-}
-.app-thumbnail-parent {
-  width: 1160px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
-  z-index: 5;
-}
-.section-demo {
-  width: 1440px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 104px var(--padding-61xl) 100px;
-  box-sizing: border-box;
-  position: relative;
-  gap: 70px 0;
-  z-index: 1;
-  text-align: center;
-  color: var(--amber-600);
-}
-.section-create-child {
-  width: 1146.5px;
-  position: absolute;
-  margin: 0 !important;
-  top: 0;
-  right: 867.2px;
-  height: 1000.1px;
-  z-index: 0;
-}
-.section-create-inner,
-.section-create-item {
-  width: 99px;
-  position: absolute;
-  margin: 0 !important;
-  top: 616px;
-  left: 21px;
-  border-radius: 50%;
-  background-color: var(--blue-light-200);
-  height: 99px;
-  z-index: 1;
-}
-.section-create-inner {
-  width: 80px;
-  top: 51px;
-  left: 132px;
-  background-color: var(--amber-400);
-  height: 80px;
-  z-index: 2;
-}
-.mobile-app-placeholder-1-icon {
-  width: 449px;
-  border-radius: var(--br-xl);
-  height: 530px;
-  overflow: hidden;
-  flex-shrink: 0;
-  object-fit: cover;
-  z-index: 3;
-}
-.caption1 {
-  align-self: stretch;
-  position: relative;
-  line-height: 110%;
-  font-weight: 500;
-  color: var(--amber-600);
-}
-.main-headline1,
-.secondary-headline1 {
-  position: relative;
-  line-height: 110%;
-  font-weight: 800;
-}
-.main-headline1 {
-  width: 708px;
-  font-size: var(--heading-1-m-size);
-  display: none;
-}
-.secondary-headline1 {
-  align-self: stretch;
-  font-size: var(--heading-2-size);
-}
-.top2 {
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 8px 0;
-}
-.paragraph2 {
-  align-self: stretch;
-  position: relative;
-  line-height: 180%;
-}
-.icon-jam-icons-outline-l3 {
-  width: 24px;
-  position: relative;
-  height: 24px;
-  overflow: hidden;
-  flex-shrink: 0;
-  display: none;
-}
-.button-1,
-.button-2 {
-  border-radius: var(--br-5xs);
-  border: 2px solid var(--blue-600);
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: var(--padding-xs);
-}
-.button-1 {
-  background-color: var(--blue-600);
-  display: flex;
-  color: var(--white);
-}
-.button-2 {
-  display: none;
-}
-.icon-jam-icons-outline-l7 {
-  width: 24px;
-  position: relative;
-  height: 24px;
-  overflow: hidden;
-  flex-shrink: 0;
-  display: none;
-  z-index: 0;
-}
-.text-container4 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 0 var(--padding-base);
-  z-index: 1;
-}
-.icon-jam-icons-outline-l8 {
-  width: 24px;
-  position: relative;
-  height: 24px;
-  overflow: hidden;
-  flex-shrink: 0;
-  z-index: 2;
-}
-.badge {
-  margin: 0 !important;
-  position: absolute;
-  top: 8px;
-  left: 24px;
-  border-radius: var(--br-xs);
-  background-color: var(--default-alert);
-  justify-content: center;
-  padding: var(--padding-12xs-5) var(--padding-7xs-5);
-  z-index: 3;
-  text-align: center;
-  font-size: var(--body-xs-size);
-  color: var(--white);
-}
-.badge,
-.button-3,
-.buttons-group1 {
-  display: none;
-  flex-direction: row;
-  align-items: center;
-}
-.button-3 {
-  border-radius: var(--br-5xs);
-  justify-content: center;
-  padding: var(--padding-xs) var(--padding-5xs);
-  position: relative;
-}
-.buttons-group1 {
-  width: 528px;
-  justify-content: flex-start;
-  gap: 0 16px;
-  font-size: var(--button-m-size);
-  color: var(--blue-600);
-}
-.section-text2 {
-  width: 723px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 24px 0;
-}
-.iconimg-54 {
-  position: absolute;
-  top: 12px;
-  left: 31.4px;
-  width: 60px;
-  height: 60px;
-  object-fit: cover;
-}
-.your-files {
-  position: absolute;
-  height: 41.67%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  display: inline-block;
-}
-.icon-54,
-.iconimg-58 {
-  position: absolute;
-  top: 63px;
-  left: 0;
-  width: 107.7px;
-  height: 72px;
-}
-.iconimg-58 {
-  height: 73.17%;
-  width: 55.71%;
-  top: 26.83%;
-  right: 22.01%;
-  bottom: 0;
-  left: 22.28%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  object-fit: cover;
-}
-.share1 {
-  position: absolute;
-  height: 36.59%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  display: inline-block;
-}
-.icon-58,
-.iconimg-25 {
-  position: absolute;
-  top: 0;
-  left: 639px;
-  width: 107.7px;
-  height: 82px;
-}
-.iconimg-25 {
-  height: 64.52%;
-  width: 55.71%;
-  right: 31.85%;
-  bottom: 35.48%;
-  left: 12.44%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  object-fit: cover;
-}
-.notes {
-  position: absolute;
-  height: 32.26%;
-  width: 100%;
-  top: 67.74%;
-  left: 0;
-  display: inline-block;
-}
-.icon-25,
-.iconimg-57 {
-  position: absolute;
-  top: 193px;
-  left: 531px;
-  width: 107.7px;
-  height: 93px;
-}
-.iconimg-57 {
-  height: 71.43%;
-  width: 50.05%;
-  top: 0;
-  right: 24.98%;
-  bottom: 28.57%;
-  left: 24.98%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  object-fit: cover;
-}
-.span {
-  color: var(--color-gray-200);
-}
-.ai,
-.icon-57 {
-  position: absolute;
-}
-.ai {
-  height: 35.71%;
-  width: 100%;
-  top: 64.29%;
-  left: 0;
-  display: inline-block;
-}
-.icon-57 {
-  top: 271px;
-  left: 267px;
-  width: 107.7px;
-  height: 84px;
-}
-.group-icon1,
-.group-icon2,
-.group-icon3 {
-  position: absolute;
-  height: 57.18%;
-  width: 39.83%;
-  top: 30.33%;
-  right: 56.96%;
-  bottom: 12.49%;
-  left: 3.21%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  object-fit: contain;
-}
-.group-icon2,
-.group-icon3 {
-  height: 56.69%;
-  width: 31.06%;
-  top: 43.28%;
-  right: 24.23%;
-  bottom: 0.03%;
-  left: 44.72%;
-}
-.group-icon3 {
-  height: 43.21%;
-  width: 17.87%;
-  top: 16.57%;
-  right: 2.58%;
-  bottom: 40.22%;
-  left: 79.55%;
-}
-.icon-54-parent {
-  width: 746.7px;
-  position: relative;
-  height: 392.3px;
-  text-align: center;
-  color: var(--purple-600);
-  font-family: var(--font-poppins);
-}
-.section-text-parent {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 48px 0;
-}
-.frame-arrows {
-  width: 747px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-end;
-  z-index: 4;
-}
-.frame-child {
-  position: absolute;
-  height: 132.44%;
-  width: 141.18%;
-  top: 13.46%;
-  right: 16.69%;
-  bottom: -45.9%;
-  left: -57.87%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-}
-.picture-icon {
-  position: absolute;
-  top: -80px;
-  left: -156.4px;
-  border-radius: var(--br-xl);
-  width: 327px;
-  height: 355px;
-  object-fit: cover;
-}
-.frame-inner,
-.frame-item,
-.group-parent {
-  position: absolute;
-  height: 100%;
-  width: 30.61%;
-  border-radius: var(--br-xl);
-  overflow: hidden;
-}
-.group-parent {
-  top: 0;
-  right: 69.39%;
-  bottom: 0;
-  left: 0;
-  background-color: var(--white);
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25),
-    0 0 15px rgba(0, 0, 0, 0.07);
-  border: 2px solid #38bdf8;
-  box-sizing: border-box;
-}
-.frame-inner,
-.frame-item {
-  top: -0.09%;
-  right: 34.59%;
-  bottom: 0.09%;
-  left: 34.8%;
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: cover;
-}
-.frame-inner {
-  top: 0;
-  right: -0.12%;
-  bottom: 0;
-  left: 69.52%;
-}
-.frame-parent {
-  width: 481.6px;
-  position: absolute;
-  margin: 0 !important;
-  top: 114px;
-  left: 43px;
-  height: 115.9px;
-  z-index: 5;
-}
-.section-create {
-  width: 1440px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-end;
-  padding: var(--padding-61xl);
-  box-sizing: border-box;
-  position: relative;
-  gap: 0 60px;
-  z-index: 2;
-}
-.col-child,
-.section-own-child {
-  width: 624px;
-  position: absolute;
-  margin: 0 !important;
-  top: -84px;
-  left: 1353px;
-  border-radius: 50%;
-  background-color: var(--amber-100);
-  height: 622px;
-  z-index: 0;
-}
-.col-child {
-  width: 85px;
-  top: 32.9px;
-  left: 147px;
-  background-color: var(--amber-400);
-  height: 85px;
-}
-.caption2,
-.main-headline2 {
-  align-self: stretch;
-  position: relative;
-}
-.caption2 {
-  letter-spacing: 3px;
-  line-height: 100%;
-  text-transform: uppercase;
-}
-.main-headline2 {
-  font-size: var(--heading-1-m-size);
-  line-height: 120%;
-  font-weight: 800;
-}
-.col1,
-.section-text3 {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  z-index: 1;
-}
-.section-text3 {
-  align-self: stretch;
-  justify-content: flex-start;
-}
-.col1 {
-  width: 800px;
-  justify-content: center;
-  padding: 0 0 var(--padding-11xl);
-  box-sizing: border-box;
-  position: relative;
-  gap: 24px 0;
-}
-.frame-child1,
-.frame-child2,
-.rectangle-div {
-  border: 5px solid var(--purple-900);
-  box-sizing: border-box;
-}
-.rectangle-div {
-  position: absolute;
-  top: 15px;
-  left: 14.1px;
-  border-radius: var(--br-mini);
-  width: 256px;
-  height: 256px;
-}
-.frame-child1,
-.frame-child2 {
-  transform-origin: 0 0;
-}
-.frame-child1 {
-  position: absolute;
-  top: 12px;
-  left: 142.1px;
-  border-radius: var(--br-mini);
-  width: 184px;
-  height: 184px;
-  transform: rotate(45deg);
-}
-.frame-child2 {
-  top: 0;
-  left: 224.1px;
-  width: 232px;
-  height: 232px;
-  transform: rotate(75deg);
-}
-.frame-child2,
-.frame-child3,
-.galaxy-browser-2 {
-  position: absolute;
-  border-radius: var(--br-mini);
-}
-.frame-child3 {
-  top: 0;
-  left: 180.1px;
-  border: 5px solid var(--purple-900);
-  box-sizing: border-box;
-  width: 208px;
-  height: 208px;
-  transform: rotate(60deg);
-  transform-origin: 0 0;
-}
-.galaxy-browser-2 {
-  top: 61px;
-  left: 61px;
-  width: 162.9px;
-  height: 162.9px;
-  object-fit: cover;
-}
-.frame,
-.shapes {
-  width: 284.2px;
-  height: 284.1px;
-}
-.frame {
-  position: absolute;
-  top: 0;
-  left: 0;
-  overflow: hidden;
-}
-.shapes {
-  position: relative;
-  z-index: 2;
-}
-.section-own {
-  width: 1440px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  padding: var(--padding-61xl);
-  box-sizing: border-box;
-  position: relative;
-  gap: 0 80px;
-  z-index: 3;
-}
-.ellipse-out-icon,
-.section-features-child {
-  width: 1146.5px;
-  position: absolute;
-  margin: 0 !important;
-  bottom: 96.9px;
-  left: 866.3px;
-  height: 1000.1px;
-  z-index: 0;
-}
-.ellipse-out-icon {
-  width: 7.99%;
-  height: 7.33%;
-  top: 47.86%;
-  right: 2.57%;
-  bottom: 44.81%;
-  left: 89.44%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  z-index: 1;
-}
-.section-text4 {
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 24px 0;
-  font-size: var(--body-xl-size);
-}
-.icon-iconoir-tournament {
-  width: 64px;
-  position: relative;
-  height: 64px;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-.icon {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-.title {
-  flex: 1;
-  position: relative;
-  line-height: 110%;
-}
-.text-container8 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 0 var(--padding-9xs);
-}
-.icon-iconoir-stat-up {
-  width: 16px;
-  position: relative;
-  height: 16px;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-.badge2,
-.title-container {
-  flex-direction: row;
-  align-items: center;
-}
-.badge2 {
-  border-radius: var(--br-9xs);
-  background-color: var(--green-100);
-  height: 24px;
-  display: none;
-  justify-content: center;
-  padding: var(--padding-5xs) var(--padding-9xs);
-  box-sizing: border-box;
-  font-size: var(--body-s-size);
-  color: var(--green-800);
-}
-.title-container {
-  align-self: stretch;
-  display: flex;
-  justify-content: flex-start;
-  gap: 0 8px;
-}
-.paragraph4 {
-  align-self: stretch;
-  position: relative;
-  font-size: var(--body-l-size);
-  line-height: 160%;
-}
-.content,
-.content-box {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-.content {
-  align-self: stretch;
-  justify-content: flex-start;
-  gap: 16px 0;
-}
-.content-box {
-  flex: 1;
-  background-color: var(--white);
-  overflow: hidden;
-  justify-content: center;
-}
-.title-container1 {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-}
-.content-box1 {
-  flex: 1;
-  border-radius: var(--br-xl);
-  background-color: var(--white);
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-}
-.button2,
-.row {
-  display: flex;
-  flex-direction: row;
-}
-.row {
-  align-self: stretch;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 0 48px;
-}
-.button2 {
-  position: absolute;
-  bottom: 0.4px;
-  left: calc(50% - 106.5px);
-  border-radius: var(--br-5xs);
-  background-color: #9920e9;
-  align-items: center;
-  justify-content: center;
-  padding: var(--padding-xl) var(--padding-5xl);
-  cursor: pointer;
-}
-.buttons-group3 {
-  align-self: stretch;
-  position: relative;
-  height: 65px;
-  color: var(--white);
-}
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,800;1,500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open Sans:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="container">
+    <div class="final-website-galaxy">
+      <div class="section-hero">
+        <div class="col">
+          <div class="section-text">
+            <div class="top">
+              <div class="main-headline">
+                <p class="craft-your-canvas">
+                  Craft Your Canvas, Decentralize,
+                </p>
+                <p class="share">Share</p>
+              </div>
+            </div>
+            <div class="paragraph">
+              Galaxy opens up a cosmos of possibilities where your knowledge and
+              creations are not just shared but are truly yours, fostering a new
+              paradigm of collaboration and innovation in the decentralized web.
+            </div>
+            <div class="buttons-group">
+              <div class="button" id="buttonContainer">
+                <div class="text-container" id="buttonContainer">
+                  <b class="get-it-free">Join the waitlist</b>
+                </div>
+              </div>
+              
+              <div class="button1" id="buttonContainer1">
+                <img
+                  class="icon-jam-icons-outline-l"
+                  alt=""
+                  src="./public/newspaper-f.svg"
+                />
 
-.macbook-container {
-  position: relative; /* This allows absolute positioning within it */
-  width: 1008px; /* Set to the width of the MacBook SVG */
-  height: 555px; /* Set to the height of the MacBook SVG */
-}
-.screenmacbook-icon {
-  width: 100%;
-  height: auto;
-  display: block; /* This ensures the image doesn't have extra space below */
-}
-.screen-gif {
-  position: absolute;
-  top: 30px; /* Adjust this value to match the screen position */
-  left: 140px; /* Adjust this value to match the screen position */
-  width: 730px; /* Set the width of the GIF to match the screen */
-  height: 480px; /* Maintain aspect ratio */
-}
-.section-features,
-.section-text-group {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.section-text-group {
-  flex: 1;
-  flex-direction: column;
-  gap: 52px 0;
-  z-index: 2;
-}
-.section-features {
-  width: 1440px;
-  flex-direction: row;
-  padding: 160px var(--padding-61xl) 40px;
-  box-sizing: border-box;
-  position: relative;
-  gap: 0 160px;
-  z-index: 4;
-  font-size: var(--heading-6-size);
-}
-.main-headline4 {
-  align-self: stretch;
-  position: relative;
-  font-size: var(--heading-1-m-size);
-  line-height: 110%;
-  font-weight: 800;
-  color: var(--blue-gray-900);
-}
-.top5 {
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 8px 0;
-  z-index: 0;
-}
-.paragraph8 {
-  width: 1280px;
-  position: relative;
-  line-height: 180%;
-  color: var(--blue-gray-900);
-  display: inline-block;
-  z-index: 1;
-}
-.teamimg-3,
-.teamimg-31 {
-  position: absolute;
-  background-color: var(--color-gray-100);
-}
-.teamimg-3 {
-  top: 213px;
-  left: 323px;
-  border-radius: var(--br-21xl);
-  width: 426px;
-  height: 460px;
-}
-.teamimg-31 {
-  top: 77px;
-  left: 692px;
-  border-radius: 50px;
-  width: 420px;
-  height: 424px;
-}
-.teamimg-3-icon {
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: var(--br-21xl);
-  width: 433px;
-  height: 429px;
-  object-fit: cover;
-}
-.bd-communication {
-  margin: 0;
-  font-size: var(--font-size-11xl);
-  color: var(--color-dimgray);
-}
-.gianmarco-califano-bd-container {
-  position: absolute;
-  top: 280px;
-  left: calc(50% - 187px);
-  line-height: 100%;
-  display: inline-block;
-  width: 410px;
-  height: 137px;
-}
-.column-1 {
-  position: absolute;
-  top: 248.6px;
-  left: 321px;
-  width: 446px;
-  height: 429px;
-}
-.igor-berlenko {
-  margin: 0;
-  font-weight: 800;
-}
-.pd-tech {
-  font-weight: 500;
-}
-.igor-berlenko-pd-container {
-  position: absolute;
-  top: 324.9px;
-  left: calc(50% - 193.3px);
-  line-height: 110%;
-  display: inline-block;
-  width: 386.6px;
-  height: 91px;
-}
-.column-2,
-.teambackground {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-}
-.column-2 {
-  position: absolute;
-  top: 71.6px;
-  left: 687px;
-  border-radius: var(--br-21xl);
-  width: 434px;
-  height: 432.4px;
-  background-image: url(./public/column2@3x.png);
-}
-.teambackground {
-  width: 1440px;
-  position: relative;
-  height: 718px;
-  background-image: url(./public/teambackground@3x.png);
-  z-index: 2;
-  text-align: left;
-  font-size: var(--font-size-29xl);
-  color: var(--color-gray-200);
-}
-.section-team-child,
-.section-team-item {
-  width: 92px;
-  position: absolute;
-  margin: 0 !important;
-  top: 44.7px;
-  left: 194px;
-  border-radius: 50%;
-  background-color: #9920e9;
-  height: 92px;
-  z-index: 3;
-}
-.section-team-item {
-  width: 75px;
-  top: 101px;
-  left: 1182px;
-  background-color: var(--amber-500);
-  height: 75px;
-  z-index: 4;
-}
-.section-team {
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 140px 0 0;
-  position: relative;
-  gap: 20px 0;
-  z-index: 5;
-  text-align: center;
-  color: var(--amber-600);
-}
-.main-headline5,
-.paragraph9 {
-  position: absolute;
-  left: 0;
-  width: 1280px;
-}
-.main-headline5 {
-  top: 0;
-  line-height: 110%;
-  font-weight: 800;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.paragraph9 {
-  top: 119px;
-  font-size: var(--body-xl-size);
-  line-height: 180%;
-  display: inline-block;
-}
-.main-headline-parent {
-  width: 1280px;
-  position: relative;
-  height: 215px;
-}
-.left {
-  align-self: stretch;
-  width: 520px;
-}
-.section-text5 {
-  width: 520px;
-  height: 336px;
-}
-.roadmap,
-.section-roadmap {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  padding: var(--padding-61xl);
-}
-.roadmap {
-  border-radius: 30px;
-  height: 703px;
-  flex-direction: row;
-  box-sizing: border-box;
-  gap: 0 80px;
-  background-image: url(./public/roadmap@3x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-}
-.section-roadmap {
-  align-self: stretch;
-  flex-direction: column;
-  gap: 55px 0;
-  z-index: 6;
-  text-align: center;
-  font-size: var(--heading-1-m-size);
-}
-.link-name {
-  position: relative;
-  line-height: 110%;
-  font-weight: 500;
-}
-.icon-iconoir-cancel {
-  width: 16px;
-  position: relative;
-  height: 16px;
-  overflow: hidden;
-  flex-shrink: 0;
-  display: none;
-}
-.badge5 {
-  border-radius: var(--br-9xs);
-  background-color: var(--purple-100);
-  height: 20px;
-  display: none;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: var(--padding-9xs);
-  box-sizing: border-box;
-  font-size: var(--body-xs-size);
-  color: var(--purple-800);
-}
-.columns,
-.footer-componentslinkfooter,
-.footer-componentslinkfooter7 {
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  padding: var(--padding-xs) 0;
-  gap: 0 8px;
-}
-.footer-componentslinkfooter {
-  align-self: stretch;
-  display: flex;
-}
-.columns,
-.footer-componentslinkfooter7 {
-  width: 217.6px;
-  display: none;
-  box-sizing: border-box;
-}
-.columns {
-  width: 1280px;
-  border-bottom: 1px solid var(--blue-gray-200);
-  align-items: flex-start;
-  padding: var(--padding-29xl) 0;
-  gap: 0 48px;
-}
-.galaxy-browser-1 {
-  width: 39px;
-  position: relative;
-  height: 40px;
-  object-fit: cover;
-}
-.galaxy {
-  position: relative;
-  line-height: 110%;
-  font-family: var(--heading-6);
-}
-.logo-grey {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 0 8px;
-}
-.logo-container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  font-size: var(--heading-6-size);
-}
-.galaxy-inc-all {
-  flex: 1;
-  position: relative;
-  line-height: 140%;
-}
-.footer-componentslinkfooter66,
-.footer-componentslinkfooter69 {
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  padding: var(--padding-xs) 0;
-  gap: 0 8px;
-}
-.footer-componentslinkfooter66 {
-  display: flex;
-  color: var(--blue-gray-900);
-}
-.footer-componentslinkfooter69 {
-  display: none;
-}
-.footer-componentsvertical-men {
-  width: 449.5px;
-  display: none;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 0 24px;
-  color: var(--blue-gray-600);
-}
-.group-icon4 {
-  width: 22px;
-  position: relative;
-  height: 22px;
-}
-.footer-componentssocial-icons,
-.footer-componentssocial-icons1 {
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 0 16px;
-  color: var(--blue-gray-600);
-}
-.footer-componentssocial-icons {
-  width: 186px;
-  display: flex;
-  color: var(--blue-gray-600);
-}
-.footer-componentssocial-icons1 {
-  width: 449.5px;
-  display: none;
-  color: var(--blue-gray-600);
-}
-.app-store-filled {
-  width: 119.7px;
-  position: relative;
-  height: 40px;
-}
-.button3 {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-}
-.vector-icon {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-}
-.get-it-on {
-  position: absolute;
-  top: 11.5%;
-  left: 30.37%;
-  -webkit-text-stroke: 0.2px #fff;
-}
-.vector-icon2,
-.vector-icon3,
-.vector-icon4,
-.vector-icon5,
-.vector-icon6 {
-  position: absolute;
-  height: 42.5%;
-  width: 62.89%;
-  top: 42.5%;
-  right: 6.81%;
-  bottom: 15%;
-  left: 30.3%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-}
-.vector-icon3,
-.vector-icon4,
-.vector-icon5,
-.vector-icon6 {
-  height: 33.5%;
-  width: 12%;
-  top: 48.5%;
-  right: 80.52%;
-  bottom: 18%;
-  left: 7.48%;
-}
-.vector-icon4,
-.vector-icon5,
-.vector-icon6 {
-  height: 27.5%;
-  width: 9.26%;
-  top: 36.25%;
-  right: 75.56%;
-  bottom: 36.25%;
-  left: 15.19%;
-}
-.vector-icon5,
-.vector-icon6 {
-  height: 53.75%;
-  width: 8.22%;
-  top: 23.25%;
-  right: 84.37%;
-  bottom: 23%;
-  left: 7.41%;
-}
-.vector-icon6 {
-  height: 32.25%;
-  width: 12.07%;
-  top: 17.75%;
-  right: 80.52%;
-  bottom: 50%;
-}
-.google-play {
-  width: 135px;
-  position: relative;
-  height: 40px;
-}
-.app-download {
-  width: 449.5px;
-  display: none;
-  align-items: flex-start;
-  gap: 0 16px;
-  font-size: 8.4px;
-  color: var(--white);
-  font-family: var(--font-open-sans);
-}
-.app-download,
-.bottom,
-.disclaimer {
-  flex-direction: row;
-  justify-content: flex-start;
-}
-.bottom {
-  align-self: stretch;
-  display: flex;
-  align-items: center;
-  padding: var(--padding-5xl) 0;
-  gap: 0 25px;
-  color: var(--blue-gray-900);
-}
-.disclaimer {
-  width: 1280px;
-  display: none;
-  align-items: flex-start;
-  padding: var(--padding-29xl) 0;
-  box-sizing: border-box;
-  font-size: var(--body-xs-size);
-}
-.badge81,
-.footer {
-  justify-content: center;
-  box-sizing: border-box;
-}
-.footer {
-  align-self: stretch;
-  background-color: var(--white);
-  height: 128px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0 var(--padding-61xl);
-  z-index: 7;
-  font-size: var(--button-m-size);
-  color: var(--blue-gray-600);
-}
-.badge81 {
-  border-radius: var(--br-9xs);
-  background-color: var(--red-100);
-  height: 20px;
-  display: none;
-  flex-direction: row;
-  align-items: center;
-  padding: var(--padding-9xs);
-  font-size: var(--body-xs-size);
-  color: var(--red-800);
-}
-.menu-item {
-  align-self: stretch;
-  display: flex;
-  align-items: center;
-  padding: var(--padding-xs) var(--padding-5xs);
-  gap: 0 8px;
-  cursor: pointer;
-  font-family: var(--heading-6);
-}
-.buttons-group4,
-.menu-item,
-.menu-item6 {
-  flex-direction: row;
-  justify-content: flex-start;
-}
-.menu-item6 {
-  align-self: stretch;
-  display: none;
-  align-items: center;
-  padding: var(--padding-xs) var(--padding-5xs);
-  gap: 0 8px;
-}
-.buttons-group4 {
-  display: flex;
-  align-items: flex-start;
-  gap: 0 16px;
-  font-size: var(--button-m-size);
-}
-.header,
-.left1 {
-  margin: 0 !important;
-  position: absolute;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.left1 {
-  top: 24px;
-  left: 70px;
-  justify-content: flex-start;
-  gap: 0 38px;
-  z-index: 0;
-}
-.header {
-  width: 1440px;
-  top: 0;
-  left: 0;
-  height: 96px;
-  justify-content: center;
-  padding: var(--padding-5xl) var(--padding-61xl);
-  box-sizing: border-box;
-  z-index: 8;
-  font-size: var(--heading-5-size);
-}
-.trusted-by {
-  width: 116px;
-  position: relative;
-  line-height: 110%;
-  display: inline-block;
-  flex-shrink: 0;
-  font-family: var(--heading-6);
-}
-.group-icon5,
-.vector-icon7,
-.vector-icon8 {
-  position: absolute;
-  height: 100%;
-  width: 24.1%;
-  top: 0;
-  right: 75.9%;
-  bottom: 0;
-  left: 0;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-}
-.vector-icon7,
-.vector-icon8 {
-  height: 31.58%;
-  width: 32.35%;
-  top: 35.75%;
-  right: 39.88%;
-  bottom: 32.68%;
-  left: 27.78%;
-}
-.vector-icon8 {
-  height: 32.89%;
-  width: 35.6%;
-  top: 35.96%;
-  right: 0;
-  bottom: 31.14%;
-  left: 64.4%;
-}
-.icp,
-.polka-icon {
-  width: 400px;
-  position: relative;
-  height: 45.6px;
-}
-.polka-icon {
-  width: 200px;
-  height: 42.8px;
-}
-.nameartvenue {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-}
-.final-website-galaxy,
-.galaxy-logos {
-  background-color: var(--white);
-  display: flex;
-}
-.galaxy-logos {
-  width: 828px;
-  margin: 0 !important;
-  position: absolute;
-  top: 3330px;
-  left: 80px;
-  border-radius: var(--br-8xs);
-  border: 1px dashed #9747ff;
-  box-sizing: border-box;
-  height: 89px;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: var(--padding-base) var(--padding-11xl);
-  gap: 0 40px;
-  z-index: 9;
-  font-size: var(--heading-6-size);
-  color: var(--black);
-}
-.final-website-galaxy {
-  width: 100%;
-  position: relative;
-  height: 7342px;
-  overflow: hidden;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  text-align: left;
-  font-size: var(--body-xl-size);
-  color: var(--blue-gray-900);
-  font-family: var(--heading-6);
-}
+                <div class="text-container1">
+                  <div class="button-text">Our Whitepaper</div>
+                </div>
+              </div>
+            </div>
+            <div class="socials1">
+              <div class="footer-componentssocial-icons">
+                <a href="https://t.me/caligian" target="_blank">
+                  <img
+                    class="icon-jam-icons-outline-l"
+                    alt="Telegram"
+                    src="./public/telegram-logo.svg"
+                  />
+                </a>
+    
+                <a href="https://twitter.com/galaxydoxyz" target="_blank">
+                  <img class="group-icon4" alt="Group Icon" src="./public/x-logo.svg" />
+                </a>
+              
+                <a href="https://discord.gg/9y8Y5JbWCf" target="_blank">
+                  <img
+                    class="icon-jam-icons-outline-l --blue-gray-900"
+                    alt="Discord"
+                    src="./public/discord-logo.svg"
+                  />
+                </a>
+              
+                <a href="https://github.com/galaxydo" target="_blank">
+                  <img
+                    class="icon-jam-icons-outline-l"
+                    alt="GitHub"
+                    src="./public/github-logo.svg"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="right">
+          <img class="right-child" alt="" src="./public/vector-1.svg" />
+
+          <img
+            class="mask-masked-icon"
+            alt=""
+            src="./public/mask-masked@2x.png"
+          />
+
+          <div class="right-item"></div>
+          <div class="right-inner"></div>
+          <div class="ellipse-div"></div>
+          <div class="right-child1"></div>
+        </div>
+      </div>
+      <div class="section-demo">
+        <img class="circles-icon" alt="" src="./public/circles.svg" />
+
+        <div class="section-text1">
+          <div class="top1">
+            <div class="caption">Seamless Workflows</div>
+            <div class="secondary-headline">
+              Clarity in Your Digital Workspace
+            </div>
+          </div>
+          <div class="paragraph1">
+            <p class="craft-your-canvas">
+              No more hassle of multiple tabs and disjointed workflows.
+            </p>
+            <p class="share">
+              Galaxy unifies all your tools and files into an interactive
+              environment, enhancing your transition from one task to another,
+              maintaining focus, clarity and productivity.
+            </p>
+          </div>
+        </div>
+        <div class="screendesktop">
+          <div class="top-bar">
+            <div class="circles">
+              <img
+                class="icon-jam-icons-filled-ci"
+                alt=""
+                src="./public/icon--jamicons--filled--circlef.svg"
+              />
+
+              <img
+                class="icon-jam-icons-filled-ci"
+                alt=""
+                src="./public/icon--jamicons--filled--circlef1.svg"
+              />
+
+              <img
+                class="icon-jam-icons-filled-ci"
+                alt=""
+                src="./public/icon--jamicons--filled--circlef2.svg"
+              />
+            </div>
+            <div class="arrows">
+              <img
+                class="icon-jam-icons-outline-l"
+                alt=""
+                src="./public/icon--jamicons--outline--logos--chevronleft.svg"
+              />
+
+              <img
+                class="icon-jam-icons-outline-l"
+                alt=""
+                src="./public/icon--jamicons--outline--logos--chevronright.svg"
+              />
+            </div>
+            <div class="address-bar">
+              <div class="wwwgalaxydo">www.galaxy.do</div>
+            </div>
+          </div>
+          <img
+            class="screendesktop-child"
+            alt=""
+            src="./public/demo.gif"
+          />
+        </div>
+        <img class="circles-icon1" alt="" src="./public/circles1.svg" />
+
+        <img class="lines-icon" alt="" src="./public/lines.svg" />
+
+        <div class="app-thumbnail-parent">
+          <div class="app-thumbnail">
+            <img class="pngegg-1-1" alt="" src="./public/pngegg-1-1@2x.png" />
+          </div>
+          <div class="app-thumbnail1">
+            <div class="app-icon">
+              <img class="app-icon-child" alt="" src="./public/group-6.svg" />
+            </div>
+          </div>
+          <div class="app-thumbnail">
+            <img class="image-27-icon" alt="" src="./public/image-27@2x.png" />
+
+            <div class="app-icon1">
+              <img class="app-icon-item" alt="" src="./public/group-5.svg" />
+            </div>
+          </div>
+          <div class="app-thumbnail">
+            <div class="app-icon2">
+              <img class="app-icon-inner" alt="" src="./public/group-4.svg" />
+            </div>
+          </div>
+          <div class="app-thumbnail">
+            <div class="app-icon2">
+              <img
+                class="app-logo-05-icon"
+                alt=""
+                src="./public/applogo05.svg"
+              />
+            </div>
+          </div>
+          <div class="app-thumbnail">
+            <div class="app-icon2">
+              <img class="group-icon" alt="" src="./public/group-3.svg" />
+            </div>
+          </div>
+          <div class="app-thumbnail">
+            <div class="icon">
+              <img class="app-icon-child1" alt="" src="./public/group-1.svg" />
+            </div>
+          </div>
+          <div class="app-thumbnail">
+            <img class="pngegg-2-1" alt="" src="./public/pngegg-2-1@2x.png" />
+          </div>
+          <div class="app-thumbnail">
+            <img class="pngegg-3-1" alt="" src="./public/pngegg-3-1@2x.png" />
+          </div>
+        </div>
+      </div>
+      <div class="section-create">
+        <img
+          class="section-create-child"
+          alt=""
+          src="./public/rectangle-15.svg"
+        />
+
+        <div class="section-create-item"></div>
+        <div class="section-create-inner"></div>
+        <img
+          class="mobile-app-placeholder-1-icon"
+          alt=""
+          src="./public/demo2.gif"
+        />
+
+        <div class="frame-arrows">
+          <div class="section-text-parent">
+            <div class="section-text2">
+              <div class="top2">
+                <div class="caption1">Quick & Easy</div>
+                <div class="main-headline1">Headline One</div>
+                <div class="secondary-headline1">Just Create as You Like</div>
+              </div>
+              <div class="paragraph2">
+                <p class="craft-your-canvas">
+                  Where just a drag & drop and every copy & paste enriches your
+                  canvas, and AI supports your flow.
+                </p>
+                <p class="share">
+                  Share your digital ecosystem, co-create with peers, and keep
+                  all your resources at your fingertips.
+                </p>
+              </div>
+              <div class="buttons-group1">
+                <div class="button-1">
+                    <img
+                      class="icon-jam-icons-outline-l3"
+                      alt=""
+                      src="./public/icon--jamicons--outline--logos--plus.svg"
+                    />
+
+                  <div class="text-container1">
+                    <div class="button-text">Button Text</div>
+                  </div>
+                  <img
+                    class="icon-jam-icons-outline-l"
+                    alt=""
+                    src="./public/icon--jamicons--outline--logos--arrowright.svg"
+                  />
+                </div>
+                <div class="button-2">
+                  <img
+                    class="icon-jam-icons-outline-l3"
+                    alt=""
+                    src="./public/icon--jamicons--outline--logos--plus1.svg"
+                  />
+
+                  <div class="text-container1">
+                    <div class="button-text">Button Text</div>
+                  </div>
+                  <img
+                    class="icon-jam-icons-outline-l"
+                    alt=""
+                    src="./public/icon--jamicons--outline--logos--arrowright1.svg"
+                  />
+                </div>
+                <div class="button-3">
+                  <img
+                    class="icon-jam-icons-outline-l7"
+                    alt=""
+                    src="./public/icon--jamicons--outline--logos--plus1.svg"
+                  />
+
+                  <div class="text-container4">
+                    <div class="button-text">Button Text</div>
+                  </div>
+                  <img
+                    class="icon-jam-icons-outline-l8"
+                    alt=""
+                    src="./public/icon--jamicons--outline--logos--arrowright1.svg"
+                  />
+
+                  <div class="badge">
+                    <div class="wwwgalaxydo">9</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="icon-54-parent">
+              <div class="icon-54">
+                <img
+                  class="iconimg-54"
+                  alt=""
+                  src="./public/iconimg54@2x.png"
+                />
+
+                <div class="your-files">Your Files</div>
+              </div>
+              <div class="icon-58">
+                <img
+                  class="iconimg-58"
+                  alt=""
+                  src="./public/iconimg58@2x.png"
+                />
+
+                <div class="share1">Share</div>
+              </div>
+              <div class="icon-25">
+                <img
+                  class="iconimg-25"
+                  alt=""
+                  src="./public/iconimg25@2x.png"
+                />
+
+                <div class="notes">Notes</div>
+              </div>
+              <div class="icon-57">
+                <img
+                  class="iconimg-57"
+                  alt=""
+                  src="./public/iconimg57@2x.png"
+                />
+
+                <div class="ai">
+                  <span>AI</span>
+                  <span class="span"> </span>
+                </div>
+              </div>
+              <img class="group-icon1" alt="" src="./public/group@2x.png" />
+
+              <img class="group-icon2" alt="" src="./public/group1@2x.png" />
+
+              <img class="group-icon3" alt="" src="./public/group2@2x.png" />
+            </div>
+          </div>
+        </div>
+        <div class="frame-parent">
+          <div class="group-parent">
+            <img class="frame-child" alt="" src="./public/group-11.svg" />
+
+            <img class="picture-icon" alt="" src="./public/picture@2x.png" />
+          </div>
+          <img class="frame-item" alt="" src="./public/frame-3@2x.png" />
+
+          <img class="frame-inner" alt="" src="./public/frame-4@2x.png" />
+        </div>
+      </div>
+      <div class="section-own" data-scroll-to="sectionOwnContainer">
+        <div class="section-own-child"></div>
+        <div class="col1">
+          <div class="col-child"></div>
+          <div class="section-text3">
+            <div class="content">
+              <b class="caption2">on Blockchain</b>
+              <div class="main-headline2">
+                <p class="craft-your-canvas">Own it.</p>
+                <p class="share">
+                  It’s Your Knowledge, We Decentralize it for You
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="shapes">
+          <div class="frame">
+            <div class="rectangle-div"></div>
+            <div class="frame">
+              <div class="frame-child1"></div>
+              <div class="frame-child2"></div>
+              <div class="frame-child3"></div>
+              <img
+                class="galaxy-browser-2"
+                alt=""
+                src="./public/galaxy-browser-2@2x.png"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-features">
+        <img
+          class="section-features-child"
+          alt=""
+          src="./public/rectangle-151.svg"
+        />
+
+        <img class="ellipse-out-icon" alt="" src="./public/ellipse-out.svg" />
+
+        <div class="section-text-group">
+          <div class="section-text4">
+            <div class="top2">
+              <div class="caption1">Tech features</div>
+              <div class="main-headline1">Headline One</div>
+              <div class="secondary-headline1">Simple but Advanced</div>
+            </div>
+            <div class="paragraph2">
+              Galaxy equips you with cutting-edge functionalities, simplifying
+              complex technology, as Web3, to empower your digital independence.
+            </div>
+            <div class="buttons-group1">
+              <div class="button-1">
+                <img
+                  class="icon-jam-icons-outline-l3"
+                  alt=""
+                  src="./public/icon--jamicons--outline--logos--plus.svg"
+                />
+
+                <div class="text-container1">
+                  <div class="button-text">Button Text</div>
+                </div>
+                <img
+                  class="icon-jam-icons-outline-l"
+                  alt=""
+                  src="./public/icon--jamicons--outline--logos--arrowright.svg"
+                />
+              </div>
+              <div class="button-2">
+                <img
+                  class="icon-jam-icons-outline-l3"
+                  alt=""
+                  src="./public/icon--jamicons--outline--logos--plus1.svg"
+                />
+
+                <div class="text-container1">
+                  <div class="button-text">Button Text</div>
+                </div>
+                <img
+                  class="icon-jam-icons-outline-l"
+                  alt=""
+                  src="./public/icon--jamicons--outline--logos--arrowright1.svg"
+                />
+              </div>
+              <div class="button-3">
+                <img
+                  class="icon-jam-icons-outline-l7"
+                  alt=""
+                  src="./public/icon--jamicons--outline--logos--plus1.svg"
+                />
+
+                <div class="text-container4">
+                  <div class="button-text">Button Text</div>
+                </div>
+                <img
+                  class="icon-jam-icons-outline-l8"
+                  alt=""
+                  src="./public/icon--jamicons--outline--logos--arrowright1.svg"
+                />
+
+                <div class="badge">
+                  <div class="wwwgalaxydo">9</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="content-box">
+              <div class="content">
+                <div class="icon">
+                  <img
+                    class="icon-iconoir-tournament"
+                    alt=""
+                    src="./public/icon--iconoir--tournament.svg"
+                  />
+                </div>
+                <div class="top">
+                  <div class="title-container">
+                    <b class="title">Embed Anything</b>
+                    <div class="badge2">
+                      <img
+                        class="icon-iconoir-cancel"
+                        alt=""
+                        src="./public/icon--jamicons--outline--logos--circle.svg"
+                      />
+
+                      <div class="text-container8">
+                        <div class="wwwgalaxydo">+2,5%</div>
+                      </div>
+                      <img
+                        class="icon-iconoir-stat-up"
+                        alt=""
+                        src="./public/icon--iconoir--statup.svg"
+                      />
+                    </div>
+                    <img
+                      class="icon-jam-icons-outline-l3"
+                      alt=""
+                      src="./public/icon--jamicons--outline--logos--pencil.svg"
+                    />
+                  </div>
+                </div>
+                <div class="paragraph4">
+                  With a limitless canvas you can visualize your workflows and
+                  interact with your files, website, code and whatever you
+                  create in Galaxy.
+                </div>
+              </div>
+            </div>
+            <div class="content-box1">
+              <div class="content">
+                <div class="icon">
+                  <img
+                    class="icon-iconoir-tournament"
+                    alt=""
+                    src="./public/icon--iconoir--thumbsup.svg"
+                  />
+                </div>
+                <div class="top">
+                  <div class="title-container1">
+                    <b class="title">Web3 Friendly</b>
+                  </div>
+                </div>
+                <div class="paragraph4">
+                  Experience the future of the internet with Galaxy’s Web3
+                  compatibility. Save your canvas on decentralized storage and
+                  monetize within its simple interface
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="content-box">
+              <div class="content">
+                <div class="icon">
+                  <img
+                    class="icon-iconoir-tournament"
+                    alt=""
+                    src="./public/icon--iconoir--transitiontop.svg"
+                  />
+                </div>
+                <div class="top">
+                  <div class="title-container">
+                    <b class="title">Dev Tools</b>
+                    <div class="badge2">
+                      <img
+                        class="icon-iconoir-cancel"
+                        alt=""
+                        src="./public/icon--jamicons--outline--logos--circle.svg"
+                      />
+
+                      <div class="text-container8">
+                        <div class="wwwgalaxydo">+2,5%</div>
+                      </div>
+                      <img
+                        class="icon-iconoir-stat-up"
+                        alt=""
+                        src="./public/icon--iconoir--statup.svg"
+                      />
+                    </div>
+                    <img
+                      class="icon-jam-icons-outline-l3"
+                      alt=""
+                      src="./public/icon--jamicons--outline--logos--pencil.svg"
+                    />
+                  </div>
+                </div>
+                <div class="paragraph4">
+                  Write, test, and push your code to GitHub directly from your
+                  workspace. Accelerate and optimize your coding with our
+                  built-in macros and shortcuts.
+                </div>
+              </div>
+            </div>
+            <div class="content-box1">
+              <div class="content">
+                <div class="icon">
+                  <img
+                    class="icon-iconoir-tournament"
+                    alt=""
+                    src="./public/icon--iconoir--perspectiveview.svg"
+                  />
+                </div>
+                <div class="top">
+                  <div class="title-container">
+                    <b class="title">Multi-Modal AI</b>
+                    <div class="badge2">
+                      <img
+                        class="icon-iconoir-cancel"
+                        alt=""
+                        src="./public/icon--jamicons--outline--logos--circle.svg"
+                      />
+
+                      <div class="text-container8">
+                        <div class="wwwgalaxydo">+2,5%</div>
+                      </div>
+                      <img
+                        class="icon-iconoir-stat-up"
+                        alt=""
+                        src="./public/icon--iconoir--statup.svg"
+                      />
+                    </div>
+                    <img
+                      class="icon-jam-icons-outline-l3"
+                      alt=""
+                      src="./public/icon--jamicons--outline--logos--pencil.svg"
+                    />
+                  </div>
+                </div>
+                <div class="paragraph4">
+                  Whether you're drafting documents, generating code, or
+                  analyzing data, you can choose among different AI models to
+                  adapt any of your inputs.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="buttons-group3">
+            <div class="button2" id="buttonContainer2">
+              <div class="text-container" id="buttonContainer2">
+                <b class="get-it-free">Join the waitlist </b>
+              </div>
+            </div>
+          </div>
+          <div class="macbook-container">
+            <img class="screenmacbook-icon" src="./public/screenmacbook.svg"/>
+            <img class="screen-gif" src="./public/demo3.gif"/>
+          </div>
+        </div>
+      </div>
+      
+      <div class="section-team" data-scroll-to="sectionTeamContainer">
+        <div class="top5">
+          <div class="caption"></div>
+          <div class="main-headline4">Galaxy Team</div>
+        </div>
+        <div class="paragraph8">
+          <p class="craft-your-canvas">
+            Driven by a passion for innovation and a dedication to empowering
+            users, we are at the forefront of knowledge management evolution.
+          </p>
+          <p class="share">
+            With expertise that spans blockchain technology and strategic
+            communication, we are committed to enhancing your productivity in
+            the decentralized future.
+          </p>
+        </div>
+        <div class="teambackground">
+          <div class="teamimg-3"></div>
+          <div class="teamimg-31"></div>
+          <div class="column-1">
+            <img class="teamimg-3-icon" alt="" src="./public/teamimg3@2x.png" />
+
+            <div class="gianmarco-califano-bd-container">
+              <p class="share">
+                <b>Gianmarco Califano</b>
+              </p>
+              <p class="bd-communication">
+                <i class="pd-tech">Business Development</i>
+              </p>
+            </div>
+          </div>
+          <div class="column-2">
+            <div class="igor-berlenko-pd-container">
+              <p class="igor-berlenko">Igor Berlenko</p>
+              <p class="bd-communication">
+                <i class="pd-tech">Technical Development</i>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="section-team-child"></div>
+        <div class="section-team-item"></div>
+      </div>
+      <!-- <div class="section-roadmap" data-scroll-to="sectionRoadmapContainer">
+        <div class="main-headline-parent">
+          <div class="main-headline5">Our Vision</div>
+          <div class="paragraph9">
+            At the heart of Galaxy lies a vision to redefine knowledge
+            management. We are paving the way for a world where collaboration
+            and ownership flourish on a decentralized canvas, enabling every
+            user to unlock their full creative and productive potential.
+            
+          </div>
+        </div>
+        <div class="roadmap">
+          <div class="left"></div>
+          <div class="section-text5"></div>
+        </div>
+      </div> -->
+
+      <div class="footer">
+        <div class="bottom">
+          <div class="logo-container">
+            <div class="logo-grey">
+              <img
+                class="galaxy-browser-1"
+                alt=""
+                src="./public/galaxy-browser-2@2x.png"
+              />
+
+              <b class="galaxy">Galaxy</b>
+            </div>
+          </div>
+          <div class="galaxy-inc-all">
+            @ 2024 Galaxydo, Inc. All rights reserved.
+          </div>
+          
+          <div class="footer-componentssocial-icons">
+            <a href="https://t.me/caligian" target="_blank">
+              <img
+                class="icon-jam-icons-outline-l"
+                alt="Telegram"
+                src="./public/telegram-logo.svg"
+              />
+            </a>
+
+            <a href="https://twitter.com/galaxydoxyz" target="_blank">
+              <img class="group-icon4" alt="Group Icon" src="./public/x-logo.svg" />
+            </a>
+          
+            <a href="https://discord.gg/9y8Y5JbWCf" target="_blank">
+              <img
+                class="icon-jam-icons-outline-l --blue-gray-900"
+                alt="Discord"
+                src="./public/discord-logo.svg"
+              />
+            </a>
+          
+            <a href="https://github.com/galaxydo" target="_blank">
+              <img
+                class="icon-jam-icons-outline-l"
+                alt="GitHub"
+                src="./public/github-logo.svg"
+              />
+            </a>
+          
+            <a href="https://whitepaper.galaxydo.xyz" target="_blank">
+              <img
+                class="icon-jam-icons-outline-l --blue-gray-900"
+                alt="Notion"
+                src="./public/notion-logo.svg"
+              />
+            </a>
+          </div>
+
+          </div>
+        <div class="disclaimer">
+          <div class="galaxy-inc-all">Disclaimer</div>
+        </div>
+      </div>
+      <div class="header">
+        <div class="left1">
+          <b class="galaxy">Galaxy</b>
+          <div class="buttons-group4">
+
+            <div class="menu-item" id="menuItemContainer">
+              <div class="button-text">Your Canvas</div>
+            </div>
+
+            <div class="menu-item" id="menuItemContainer2">
+              <div class="button-text">The Team</div>
+            </div>
+
+            <!-- <div class="menu-item" id="menuItemContainer1">
+              <div class="button-text">Our Vision</div>
+            </div> -->
+
+            <div class="menu-item">
+              <a href="https://linktr.ee/galaxydo" class="button-text">Our Links</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="galaxy-logos">
+        <div class="logo-grey">
+          <b class="trusted-by">
+            <p class="craft-your-canvas">Trusted</p>
+            <p class="share">by Web3</p>
+          </b>
+          <div class="icp">
+            <img class="group-icon5" alt="" src="./public/group4.svg" />
+
+            <img class="vector-icon7" alt="" src="./public/vector7.svg" />
+
+            <img class="vector-icon8" alt="" src="./public/vector8.svg" />
+          </div>
+        </div>
+        <div class="nameartvenue">
+          <img class="polka-icon" alt="" src="./public/polka.svg" />
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <script>
+      var buttonContainer = document.getElementById("buttonContainer");
+      if (buttonContainer) {
+        buttonContainer.addEventListener("click", function () {
+          window.open("https://waitlist.galaxydo.xyz/dashboard");
+        });
+      }
+
+      var buttonContainer2 = document.getElementById("buttonContainer2");
+      if (buttonContainer2) {
+        buttonContainer2.addEventListener("click", function () {
+          window.open("https://waitlist.galaxydo.xyz/dashboard");
+        });
+      }
+      
+      var buttonContainer1 = document.getElementById("buttonContainer1");
+      if (buttonContainer1) {
+        buttonContainer1.addEventListener("click", function () {
+          window.open(
+            "https://whitepaper.galaxydo.xyz"
+          );
+        });
+      }
+      
+      var menuItemContainer = document.getElementById("menuItemContainer");
+      if (menuItemContainer) {
+        menuItemContainer.addEventListener("click", function () {
+          var anchor = document.querySelector(
+            "[data-scroll-to='sectionOwnContainer']"
+          );
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
+      var menuItemContainer1 = document.getElementById("menuItemContainer1");
+      if (menuItemContainer1) {
+        menuItemContainer1.addEventListener("click", function () {
+          var anchor = document.querySelector(
+            "[data-scroll-to='sectionRoadmapContainer']"
+          );
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
+      var menuItemContainer2 = document.getElementById("menuItemContainer2");
+      if (menuItemContainer2) {
+        menuItemContainer2.addEventListener("click", function () {
+          var anchor = document.querySelector(
+            "[data-scroll-to='sectionTeamContainer']"
+          );
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      </script>
+  </body>
+</html>
